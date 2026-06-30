@@ -2,12 +2,7 @@ package com.busbooking;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
-<<<<<<< HEAD
-public class BookingSystem {
- 
-=======
+import
 public class BusbookingSystem {
     private List<Customer> customers;
     private List<Bus> buses;
@@ -206,9 +201,4 @@ public class BusbookingSystem {
             System.out.println();
         }
     }
-
-
-
->>>>>>> d4d5333da9210e9d2560cc663ac0d89c0a495a1f
-
 }
