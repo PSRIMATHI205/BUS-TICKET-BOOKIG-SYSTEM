@@ -8,7 +8,7 @@ public class Ticket {
     private Bus bus;
     private int numberOfTickets;
     private double fare;
-    private List<Integer> bookedSeats; // stores 0-based seat indices
+    private List<Integer> bookedSeats;
     public Ticket(int ticketId, Bus bus, int numberOfTickets,
                   double fare, int customerId) {
         super();
@@ -19,7 +19,7 @@ public class Ticket {
         this.customerId = customerId;
         this.bookedSeats = new ArrayList<>();
     }
-    // Called after each successful bookSeat()
+
     public void addBookedSeat(int seatNumber) {
         bookedSeats.add(seatNumber);
     }
